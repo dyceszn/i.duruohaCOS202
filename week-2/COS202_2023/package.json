@@ -1,0 +1,15 @@
+{
+  "name": "cos202_2023",
+  "version": "0.0.1",
+  "description": "learning js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "pau"
+  ],
+  "author": "Ikenna",
+  "license": "MIT"
+}

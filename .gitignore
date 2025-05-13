@@ -128,3 +128,102 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Python
+
+# Logs
+
+logs
+\*.log
+
+# Virtual environments
+
+venv/
+.env
+.env.\*
+\*.env
+
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+\*.py\[cod]
+\*.pyo
+\*.pyd
+.Python
+
+# Python packaging
+
+build/
+dist/
+\*.egg-info/
+\*.eggs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+
+.tox/
+.pytest\_cache/
+.coverage
+coverage.xml
+htmlcov/
+\*.cover
+.hypothesis/
+
+# Jupyter Notebook
+
+.ipynb\_checkpoints
+
+# Pyre type checker
+
+.pyre/
+
+# Mypy type checker
+
+.mypy\_cache/
+.dmypy.json
+.dmypy/\*
+
+# IDE files
+
+.vscode/
+.idea/
+\*.sublime-workspace
+\*.sublime-project
+
+# Django
+
+\*.sqlite3
+\*.db
+migrations/
+
+# Flask
+
+instance/
+
+# FastAPI
+
+**pycache**/
+
+# Docker
+
+\*.dockerignore
+Dockerfile
+.dockerignore
+
+# Anaconda
+
+.conda
+
+# Sphinx documentation
+
+\_build/
+
+# MacOS specific
+
+.DS\_Store
+
+# Windows specific
+
+Thumbs.db
